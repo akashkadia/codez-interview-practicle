@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Functionality
+1). Integrate the autocomplete search field using google-auto-place API
+
+2). Integrate the google-map functionality which location user is selected from the autocomplete so this locaiton is displayed in map with marker
+ 
+3). Integrate the redux functionality to show to user searched history, when user click on the View Searched History button then open the popup and display the all user searched history
