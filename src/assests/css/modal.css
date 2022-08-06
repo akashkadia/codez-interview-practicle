@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity ease 300ms;
+  z-index: 3;
+}
+.style-modal {
+  max-width: 100%;
+  width: 550px;
+  min-height: 250px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  transition: opacity ease 500ms;
+  position: relative;
+  word-break: break-all;
+  margin: 0 15px;
+}
+.inner-div {
+  max-height: 450px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.close-btn {
+  min-width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  position: absolute;
+  top: -15px;
+  margin: 0;
+  right: -15px;
+  font-size: 15px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  /* background: ; */
+  cursor: pointer;
+  /* &:hover {
+    border: 2px solid #043764;
+    background: #ffffff;
+    .close {
+      fill: #043764;
+    }
+  } */
+}
